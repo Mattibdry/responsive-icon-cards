@@ -6,8 +6,39 @@
 
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+
+.card body h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.card-img img {
+  width: 50px;
+  padding-top: .5rem;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card-img {
+  text-align: center;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  display: inline-block;
 }
